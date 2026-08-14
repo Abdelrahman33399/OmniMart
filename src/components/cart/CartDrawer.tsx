@@ -33,7 +33,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({ lang = 'en' }) => {
 
   const handleCheckout = () => {
     toggleCartDrawer(false);
-    alert(t('Proceeding to Checkout mock page!', 'جاري الانتقال لصفحة الدفع التجريبية!'));
+    alert(t('You need to login.!', 'لازم تعمل تسجيل دخول!'));
   };
 
   const handleViewFullCart = () => {
